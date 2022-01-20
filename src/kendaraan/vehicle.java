@@ -5,12 +5,14 @@ public class vehicle {
     private int bahan_bakar = 0;
     public String merk = "";
     public String nama_driver = "";
+    public String tipe = "";
 
-    public vehicle(int roda, int bahan_bakar, String merk, String nama_driver){
+    public vehicle(int roda, int bahan_bakar, String merk, String nama_driver, String tipe){
         this.roda = roda;
         this.merk = merk;
         this.bahan_bakar = bahan_bakar;
         this.nama_driver = nama_driver;
+        this.tipe = tipe;
     }
 
     public void gas(int value){
