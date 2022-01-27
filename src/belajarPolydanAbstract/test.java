@@ -4,9 +4,13 @@ public class test {
     public static void main(String[] args) {
         Hewan hewan = new Hewan();
         Hewan kucingAnggora = new Kucing();
+        ayam jago = new ayam();
 
-        hewan.makeSound();
-        kucingAnggora.makeSound();
+        Hewan[] kandang = {hewan, kucingAnggora, jago};
+
+        kandang[0].makeSound();
+        kandang[1].makeSound();
+        kandang[2].makeSound();
 
         kalkulator Kalkulator = new kalkulator();
 
