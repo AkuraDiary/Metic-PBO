@@ -11,6 +11,7 @@ public class test {
         kandang[0].makeSound();
         kandang[1].makeSound();
         kandang[2].makeSound();
+        jago.methodAyam();
 
         kalkulator Kalkulator = new kalkulator();
 

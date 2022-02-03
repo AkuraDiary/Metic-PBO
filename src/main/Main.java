@@ -21,5 +21,6 @@ public class Main {
 
         avanza.status();
         ducati.status();
+        ducati.rem(3);
     }
 }

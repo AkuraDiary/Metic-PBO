@@ -5,4 +5,8 @@ public class Kucing extends Hewan{
     public void makeSound() {
         System.out.println("Meong");
     }
+
+    public void methodKucing(){
+        System.out.println("kucing");
+    }
 }
